@@ -14,7 +14,6 @@ for (var i = 0; i <= watchlist.length; i++) {
 
 window.onscroll = function () {
   var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-  // console.log(scrolled + 'px');
 }
 
 const Watcher = ({ price, symbol, change, popupDelay, chartData, hidden }) => (
